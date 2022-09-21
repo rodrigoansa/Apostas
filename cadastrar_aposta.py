@@ -11,24 +11,37 @@ def funcao_principal():
     time8 = cadastro.lineEdit_8.text()                            
     lucro = cadastro.lineEdit_9.text()
         
-    if time1 != (' '):
-        print('Time 1: ',time1)
-    elif time2 != (' '):
+    print('Time 1: ',time1)
+    
+    if time2 != (' '):
         print('Time 2: ',time2)
-    elif time3 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time3 != (' '):
         print('Time 3: ',time3)
-    elif time4 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time4 != (' '):
         print('Time 4: ',time4)
-    elif time5 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time5 != (' '):
         print('Time 5: ',time5)
-    elif time6 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time6 != (' '):
         print('Time 6: ', time6)
-    elif time7 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time7 != (' '):
         print('Time 7: ',time7)
-    elif time8 != (' '):
+    else:
+        print('Lucro: ', lucro)
+    if time8 != (' '):
         print('Time 8: ', time8)
     else:
         print('Lucro: ', lucro)
+
     
     
        

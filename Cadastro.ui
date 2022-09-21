@@ -34,10 +34,11 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -58,10 +59,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -82,10 +83,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -106,10 +107,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -130,10 +131,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -152,6 +153,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
@@ -164,6 +170,11 @@
       <width>341</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -178,6 +189,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
@@ -191,6 +207,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
@@ -203,6 +224,11 @@
       <width>341</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -219,8 +245,8 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>40</pointsize>
+      <family>D-DIN-PRO</family>
+      <pointsize>45</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -243,8 +269,8 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>35</pointsize>
+      <family>D-DIN-PRO</family>
+      <pointsize>39</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -265,6 +291,11 @@
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
@@ -280,10 +311,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -302,6 +333,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
@@ -314,6 +350,11 @@
       <width>341</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -330,10 +371,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -354,10 +395,10 @@
     </property>
     <property name="font">
      <font>
-      <family>DIN Pro</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>D-DIN-PRO</family>
+      <pointsize>29</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -375,6 +416,11 @@
       <width>341</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D-DIN-PRO</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -438,7 +484,7 @@ color: rgb(255, 255, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>540</width>
-     <height>24</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
