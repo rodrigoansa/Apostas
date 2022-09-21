@@ -41,6 +41,7 @@ def funcao_principal():
         print('Time 8: ', time8)
     else:
         print('Lucro: ', lucro)
+    print('Lucro: ', lucro)
 
     
     
