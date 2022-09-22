@@ -14,39 +14,43 @@ def funcao_principal():
     
         
     print('Time 1: ',time1)
-    print('Time 2: ',time2)
-    if not time2:
+    if cadastro.radioButton.isChecked() == True:
+        print('Lucro: ', lucro)
+    else:
+        print('Time 2: ',time2)
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 3: ',time3)
-    if not time3:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 4: ',time4)
-    if not time4:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 5: ',time5)
-    if not time5:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 6: ',time6)
-    if not time6:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 7: ',time7)
-    if not time7:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
     else:
         print('Time 8: ',time8)
-    if not time8:
+    if cadastro.radioButton.isChecked() == True:
         print('Lucro: ', lucro)
-    
+                
     
        
 app=QtWidgets.QApplication([])
 cadastro=uic.loadUi("Cadastro.ui")
 cadastro.pushButton.clicked.connect(funcao_principal)
+cadastro.radioButton.isChecked()
 
 cadastro.show()
 app.exec()
