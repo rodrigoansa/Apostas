@@ -34,11 +34,11 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -59,10 +59,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -83,10 +83,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -107,10 +107,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -131,10 +131,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -245,8 +245,8 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>45</pointsize>
+      <family>DIN Pro</family>
+      <pointsize>40</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -269,8 +269,8 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>39</pointsize>
+      <family>DIN Pro</family>
+      <pointsize>34</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -311,10 +311,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -371,10 +371,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -395,10 +395,10 @@
     </property>
     <property name="font">
      <font>
-      <family>D-DIN-PRO</family>
-      <pointsize>29</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>DIN Pro</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -484,7 +484,7 @@ color: rgb(255, 255, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>540</width>
-     <height>22</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
