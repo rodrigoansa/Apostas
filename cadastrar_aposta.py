@@ -14,36 +14,14 @@ def funcao_principal():
     
         
     print('Time 1: ',time1)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 2: ',time2)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 3: ',time3)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 4: ',time4)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 5: ',time5)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 6: ',time6)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 7: ',time7)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
-    else:
-        print('Time 8: ',time8)
-    if cadastro.radioButton.isChecked() == True:
-        print('Lucro: ', lucro)
+    print('Time 2: ',time2)
+    print('Time 3: ',time3)
+    print('Time 4: ',time4)
+    print('Time 5: ',time5)
+    print('Time 6: ',time6)
+    print('Time 7: ',time7)
+    print('Time 8: ',time8)
+    print('Lucro: ', lucro)
                 
     
        
