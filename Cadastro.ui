@@ -27,7 +27,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>120</y>
+      <y>100</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -52,7 +52,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>170</y>
+      <y>150</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -76,7 +76,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>220</y>
+      <y>200</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -100,7 +100,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>270</y>
+      <y>250</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -124,7 +124,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>320</y>
+      <y>300</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -148,7 +148,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>120</y>
+      <y>100</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -166,7 +166,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>170</y>
+      <y>150</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -184,7 +184,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>220</y>
+      <y>200</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -202,7 +202,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>270</y>
+      <y>250</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -220,7 +220,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>320</y>
+      <y>300</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -262,7 +262,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>540</y>
+      <y>560</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -286,7 +286,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>530</y>
+      <y>550</y>
       <width>221</width>
       <height>51</height>
      </rect>
@@ -304,7 +304,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>470</y>
+      <y>450</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -328,7 +328,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>420</y>
+      <y>400</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -346,7 +346,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>470</y>
+      <y>450</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -364,7 +364,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>370</y>
+      <y>350</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -388,7 +388,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>420</y>
+      <y>400</y>
       <width>78</width>
       <height>31</height>
      </rect>
@@ -412,7 +412,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>370</y>
+      <y>350</y>
       <width>341</width>
       <height>31</height>
      </rect>
@@ -430,7 +430,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>540</y>
+      <y>560</y>
       <width>91</width>
       <height>31</height>
      </rect>
@@ -454,7 +454,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>620</y>
+      <y>640</y>
       <width>161</width>
       <height>32</height>
      </rect>
@@ -475,6 +475,23 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>VISUALIZAR APOSTAS</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>510</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(24, 141, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Confirmar</string>
     </property>
    </widget>
   </widget>
