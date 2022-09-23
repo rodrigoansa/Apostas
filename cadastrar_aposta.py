@@ -11,6 +11,7 @@ def funcao_principal():
     time8 = cadastro.lineEdit_8.text()
     lucro = cadastro.lineEdit_9.text()
 
+    
     if cadastro.checkBox_1.isChecked() == True:
         print('Time 1: ',time1)
     if cadastro.checkBox_2.isChecked() == True:
@@ -28,11 +29,21 @@ def funcao_principal():
     if cadastro.checkBox_8.isChecked() == True:
         print('Time 8: ',time8)
         
-    print('Lucro: ', lucro)
+    print('Lucro: R$', lucro)
+
+mercado = ['Casa', 'Empate', 'Fora', '+2,5']
        
 app=QtWidgets.QApplication([])
 cadastro=uic.loadUi("Cadastro.ui")
 cadastro.pushButton.clicked.connect(funcao_principal)
+cadastro.comboBox.addItems(mercado)
+cadastro.comboBox_1.addItems(mercado)
+cadastro.comboBox_2.addItems(mercado)
+cadastro.comboBox_3.addItems(mercado)
+cadastro.comboBox_4.addItems(mercado)
+cadastro.comboBox_5.addItems(mercado)
+cadastro.comboBox_6.addItems(mercado)
+cadastro.comboBox_7.addItems(mercado)
 
 
 cadastro.show()
