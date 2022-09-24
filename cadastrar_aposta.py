@@ -13,24 +13,24 @@ def funcao_principal():
 
              
     if cadastro.checkBox_1.isChecked() == True:
-        print('Time 1: ',time1, check)
+        print('Time 1: ',time1, box)
     if cadastro.checkBox_2.isChecked() == True:
-        print('Time 2: ',time2, check_1)
+        print('Time 2: ',time2, box_1)
     if cadastro.checkBox_3.isChecked() == True:
-        print('Time 3: ',time3, check_2)
+        print('Time 3: ',time3, box_2)
     if cadastro.checkBox_4.isChecked() == True:
-        print('Time 4: ',time4, check_3)
+        print('Time 4: ',time4, box_3)
     if cadastro.checkBox_5.isChecked() == True:
-        print('Time 5: ',time5, check_4)
+        print('Time 5: ',time5, box_4)
     if cadastro.checkBox_6.isChecked() == True:
-        print('Time 6: ',time6, check_5)
+        print('Time 6: ',time6, box_5)
     if cadastro.checkBox_7.isChecked() == True:
-        print('Time 7: ',time7, check_6)
+        print('Time 7: ',time7, box_6)
     if cadastro.checkBox_8.isChecked() == True:
-        print('Time 8: ',time8, check_7)
+        print('Time 8: ',time8, box_7)
         
     print('Lucro: R$', lucro)
-    print(check)
+    
 
 mercado = ['','Casa', 'Empate', 'Fora', '+2,5']
 
@@ -39,14 +39,14 @@ app=QtWidgets.QApplication([])
 cadastro=uic.loadUi("Cadastro.ui")
 cadastro.pushButton.clicked.connect(funcao_principal)
 
-check = cadastro.comboBox.addItems(mercado)
-check_1 = cadastro.comboBox_1.addItems(mercado)
-check_2 = cadastro.comboBox_2.addItems(mercado)
-check_3 = cadastro.comboBox_3.addItems(mercado)
-check_4 = cadastro.comboBox_4.addItems(mercado)
-check_5 = cadastro.comboBox_5.addItems(mercado)
-check_6 = cadastro.comboBox_6.addItems(mercado)
-check_7 = cadastro.comboBox_7.addItems(mercado)
+box = cadastro.comboBox.addItems(mercado)
+box_1 = cadastro.comboBox_1.addItems(mercado)
+box_2 = cadastro.comboBox_2.addItems(mercado)
+box_3 = cadastro.comboBox_3.addItems(mercado)
+box_4 = cadastro.comboBox_4.addItems(mercado)
+box_5 = cadastro.comboBox_5.addItems(mercado)
+box_6 = cadastro.comboBox_6.addItems(mercado)
+box_7 = cadastro.comboBox_7.addItems(mercado)
 
 
 cadastro.show()
