@@ -1,0 +1,33 @@
+from audioop import add
+from PyQt5 import  uic,QtWidgets
+import mysql.connector
+
+mercado = ['','Casa', 'Empate', 'Fora', '+2,5']
+
+def funcao_principal():
+    time = cadastro.lineEdit_1.text()
+    box = cadastro.comboBox_1.currentText()
+    lucro = cadastro.lineEdit_2.text()
+
+    linha = print(f'Time: {time}, {box}')
+    add = cadastro.pushButton_1.clicked.connect(linha)
+
+    if add == True:
+        print(linha + 1)
+   
+    print(f'Lucro: {lucro}')
+
+    cadastro.lineEdit_1.setText('')
+    cadastro.comboBox_1.clear()
+    cadastro.lineEdit_2.setText('')
+
+
+app = QtWidgets.QApplication([])
+cadastro = uic.loadUi("Tela_apostas.ui")
+cadastro.pushButton.clicked.connect(funcao_principal)
+
+
+cadastro.comboBox_1.addItems(mercado)
+
+cadastro.show()
+app.exec() 
